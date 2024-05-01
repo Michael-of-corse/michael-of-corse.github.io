@@ -7,14 +7,13 @@
     "name": "Fillark",
     "email": ""
   },
-  "repository": "michael-of-corse.github.io/michael-of-corse.github.io",
+  "repository": "/michael-of-corse.github.io",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build src"
+    "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
-    "cross-env": "^7.0.3",
     "vuepress": "^1.5.3"
   }
 }
